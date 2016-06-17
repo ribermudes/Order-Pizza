@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Hammer and Sickle Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Hammer and Sickle Pizza</h1>
+      </div>
+
+
+    <form id="pizza">
+      <div class="pizza-size">
+        <select class="form-control" id="size-choices">
+          <option value=10>Small</option>
+          <option value=15>Medium</option>
+          <option value=20>Large</option>
+        </select>
+      </div>
+      <p>&nbsp;</p>
+      <form id="pizza">
+        <div class="pizza-toppings">
+          <select class="form-control" id="toppings-choices-meat">
+            <option value=0>No Meat</option>
+            <option value=2>Pepperoni</option>
+            <option value=2>Sausage</option>
+            <option value=2>Ham</option>
+            <option value=2>Chicken</option>
+          </select>
+        </div>
+        <p>&nbsp;</p>
+        <form id="pizza">
+          <div class="pizza-toppings">
+            <select class="form-control" id="toppings-veggies">
+              <option value=1>Mushroom</option>
+              <option value=1>Olives</option>
+              <option value=1>Bell Pepper</option>
+              <option value=1>Artichoke</option>
+              <option value=1>Spinach</option>
+            </select>
+</div>
+        <p>&nbsp;</p>
+        <button type="submit" class="btn">My Order</button>
+      </form>
+
+      <div id="pizza-output">
+      </div>
+
+    </div>
+  </body>
+</html>
