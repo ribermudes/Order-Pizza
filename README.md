@@ -9,18 +9,21 @@
 _This site will allow the user to order a pizza, the user will be able to modify their order by selecting different toppings and sizes. After they have made their selection the price will be indicated._
 
 ## Speculations
-_Behavior: Allow user to select topping.
-Input: Pepperoni
-Output: "Add topping: Pepperoni"
+_Behavior: Allow user to select size.
+Input: select, Medium
+Output: Medium, price
 
-Behavior: Allow user to select size.
-Input: click, "Medium"
-Output: "Medium pizza, price $18.00"
+Behavior: Allow user to select meat topping.
+Input: click, "Pepperoni"
+Output: Add $2 for meat topping.
 
-Behavior:
-Input:
-Output:
+Behavior: Allow user to select 'no meat'
+Input: select, "No meat"
+Output: No additional charge is added.
 
+Behavior: Allow user to select vegetable topping of their choice.
+Input: select vegetable of choice.
+Output: Add $1 per item.
 
 ## Setup/Installation Requirements
 

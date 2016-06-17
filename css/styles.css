@@ -1,5 +1,5 @@
 body {
-  background-color: #CF331A;
+  background-color: #c00;
 }
 
 .jumbotron {
@@ -22,6 +22,19 @@ img.align-right {
   margin-left: 10px;
 }
 
-p {
-  display: none;
+img.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #FFD600;
+  font-family: 'Russo One', sans-serif;
+}
+
+#pizza-output {
+  font-family: 'Russo One', sans-serif;
+  padding-top: 20px;
+  font-size: 50px;
 }
