@@ -1,7 +1,8 @@
 //Back End Logic
-function Pizza (size, topping) {
+function Pizza (size, topping1, topping2) {
   this.pizzaSize = size;
-  this.topping = topping;
+  this.topping1 = topping1;
+  this.topping2 = topping2;
   this.price = 0;
 }
 
@@ -30,7 +31,7 @@ $(document).ready(function() {
 
     var pizzaPrice = new Pizza(inputtedSize, inputtedTopping1, inputtedTopping2);
 
-    var displayPrice = pizzaPrice.pizzaSize + pizzaPrice.topping;
+    var displayPrice = pizzaPrice.pizzaSize + pizzaPrice.topping1 + pizzaPrice.topping2;
 
   $("#pizza-output").show();
   $("#pizza-output").text("Your Order Total is: $" + displayPrice);
