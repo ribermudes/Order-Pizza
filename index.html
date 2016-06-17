@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
     <title>Hammer and Sickle Pizza</title>
@@ -17,6 +18,7 @@
 
     <form id="pizza">
       <div class="pizza-size">
+        <h2>Select Size</h2>
         <select class="form-control" id="size-choices">
           <option value=10>Small</option>
           <option value=15>Medium</option>
@@ -26,6 +28,7 @@
       <p>&nbsp;</p>
       <form id="pizza">
         <div class="pizza-toppings">
+          <h2>Select Meat</h2>
           <select class="form-control" id="toppings-choices-meat">
             <option value=0>No Meat</option>
             <option value=2>Pepperoni</option>
@@ -37,6 +40,7 @@
         <p>&nbsp;</p>
         <form id="pizza">
           <div class="pizza-toppings">
+            <h2>Select Vegetables</h2>
             <select class="form-control" id="toppings-veggies">
               <option value=1>Mushroom</option>
               <option value=1>Olives</option>
@@ -50,8 +54,11 @@
       </form>
 
       <div id="pizza-output">
+        <p>
+          Your pizza is $
+        </p>
       </div>
-
+      <img src="img/Hammer_and_sickle.svg.png" alt="hammerandsickle" class="align-right" />
     </div>
   </body>
 </html>

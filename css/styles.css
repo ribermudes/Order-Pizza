@@ -1,3 +1,27 @@
 body {
-  background-color: #d6140b;
+  background-color: #CF331A;
+}
+
+.jumbotron {
+  background-color: #FFD600 !important;
+  font-family: 'Russo One', sans-serif;
+}
+
+h2  {
+  font-family: 'Russo One', sans-serif;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+
+}
+
+img.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+p {
+  display: none;
 }

@@ -11,9 +11,6 @@ function Pizza (size, topping, price) {
   }
 
 
-
-
-
 //Front End Logic
 $(document).ready(function() {
   $("form#pizza").submit(function(event) {
