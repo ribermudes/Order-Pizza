@@ -25,6 +25,10 @@ Behavior: Allow user to select vegetable topping of their choice.
 Input: select vegetable of choice.
 Output: Add $1 per item.
 
+Behavior: Once user has selected size and toppings options, total price will show.
+Input: pizza size: medium, meat: Pepperoni, veggies: olives.
+Output: Show total price for pizza.
+
 ## Setup/Installation Requirements
 
 * _Open browser_

@@ -9,15 +9,10 @@ function Pizza (size, topping1, topping2) {
   var pizzaTotal = 0;
 
   Pizza.prototype.pizzaTotal = function() {
-    return this.size + this.topping
+    this.price = this.pizzaSize + this.topping1 + this.topping2;
+    return this.price
   }
 
-  Pizza.prototype.pizzatopping = function () {
-    var toppingtotal = this.topping.length +1;
-    var pizzaTotal = this.pizzaSize + toppingTotal;
-    return pizzaTotal;
-
-  };
 
 
 //Front End Logic
@@ -31,7 +26,7 @@ $(document).ready(function() {
 
     var pizzaPrice = new Pizza(inputtedSize, inputtedTopping1, inputtedTopping2);
 
-    var displayPrice = pizzaPrice.pizzaSize + pizzaPrice.topping1 + pizzaPrice.topping2;
+    var displayPrice = pizzaPrice.pizzaTotal();
 
   $("#pizza-output").show();
   $("#pizza-output").text("Your Order Total is: $" + displayPrice);
